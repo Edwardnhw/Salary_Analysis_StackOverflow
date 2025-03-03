@@ -51,6 +51,7 @@ This project analyzes salary variations across different job modes (**remote vs.
 - Contains salary, education level, work mode, and demographic information.
 
 ## Repository Structure
+```bash
 
 Salary_Analysis_StackOverflow/
 │── data/
@@ -61,6 +62,8 @@ Salary_Analysis_StackOverflow/
 │── reduce_size.ipynb    # Notebook for dataset size reduction
 │── salary_analysis.ipynb # Jupyter Notebook for analysis
 │── .DS_Store            # Duplicate system file (recommended to remove)
+
+```
 
 ### Notes:
 - `.DS_Store` files are automatically created by macOS. It is recommended to **remove** them using:
