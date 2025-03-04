@@ -47,7 +47,7 @@ This project analyzes salary variations across different job modes (**remote vs.
 
 ## Data Source
 
-- **Stack Overflow Developer Survey 2024**
+- **Stack Overflow Developer Survey 2024** (https://survey.stackoverflow.co/)
 - Contains salary, education level, work mode, and demographic information.
 
 ## Repository Structure
