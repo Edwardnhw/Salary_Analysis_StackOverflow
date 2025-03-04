@@ -71,4 +71,75 @@ Salary_Analysis_StackOverflow/
   find . -name ".DS_Store" -delete
 
 
+---
+
+## Installation & Usage
+
+### 1. Clone the Repository
+```
+- git clone https://github.com/your-username/Salary_Analysis_StackOverflow.git cd Salary_Analysis_StackOverflow
+```
+
+### 2. Install Dependencies
+```
+pip install -r requirements.txt
+
+```
+
+### 3. Run the Analysis
+```
+python salary_analysis.py
+```
+
+
+---
+
+## Results Visualization
+
+This project includes multiple visualizations such as:
+- Salary trends by experience (Line plot).
+- Average salary by education level (Bar chart).
+- Job mode salary distributions (Histograms & KDE plots).
+- Outlier detection & removal using IQR.
+- Bootstrapped confidence intervals & statistical tests.
+
+Sample Output:
+- Bootstrapped t-test result: t-statistic: -2.35, p-value: 0.018
+- Conclusion: Remote workers earn significantly more than in-person workers.
+
+
+---
+
+## Data Source
+
+- **Stack Overflow Developer Survey 2024**
+- Contains salary, education level, work mode, and demographic information.
+
+---
+
+## Next Steps & Improvements
+
+- Extend analysis to other factors (e.g., programming language, country).
+- Implement Machine Learning models for salary prediction.
+- Automate data processing with Pandas & NumPy optimizations.
+
+---
+
+## Notes
+
+Remove `.DS_Store` files (macOS system files) before pushing to GitHub  
+
+```
+find . -name ".DS_Store" -delete
+```
+
+---
+
+## Final Checklist
+
+- Python script (`salary_analysis.py`) replaces Jupyter Notebook.
+- Updated repository structure & instructions.
+- README aligns with actual analysis & methodology.
+- Statistical tests, bootstrapping, & visualizations documented.
+
 
