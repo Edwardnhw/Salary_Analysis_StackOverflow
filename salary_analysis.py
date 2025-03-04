@@ -302,10 +302,9 @@ print(f"Pooled Standard Deviation: {pooled_std}")
 t_manual_welch = (mean1 - mean2) / np.sqrt((var1 / n1) + (var2 / n2))
 
 # Degrees of freedom
-df = n1 + n2 - 2
+df_welch = n1 + n2 - 2  # Avoid overwriting the DataFrame 'df'
+print(f"Manual t-value: {t_manual_welch}, Degrees of Freedom: {df_welch}")
 
-# Print manual t-statistic result
-print(f"Manual t-value: {t_manual_welch}, Degrees of Freedom: {df}")
 
 # Built-in t-test using scipy
 t_stat, p_value = stats.ttest_ind(remote_cleaned, in_person_cleaned, equal_var=False)
