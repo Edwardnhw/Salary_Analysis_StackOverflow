@@ -135,11 +135,3 @@ find . -name ".DS_Store" -delete
 
 ---
 
-## Final Checklist
-
-- Python script (`salary_analysis.py`) replaces Jupyter Notebook.
-- Updated repository structure & instructions.
-- README aligns with actual analysis & methodology.
-- Statistical tests, bootstrapping, & visualizations documented.
-
-
