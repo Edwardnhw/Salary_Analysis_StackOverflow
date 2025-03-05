@@ -1,6 +1,6 @@
 # Salary Analysis Based on Job Mode & Education Level
 
-**Author**: Hon Wa Ng  
+**Author**: Hon Wa Ng\
 **Date**: October 2024  
 
 ## Overview
